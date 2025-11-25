@@ -1,0 +1,69 @@
+{
+  "n_samples_per_system_class": 30,
+  "n_timesteps": 1000,
+  "sampling_rate_hz": 2.0,
+  "O2_nominal": 20.9,
+  "CO2_nominal": 0.3,
+  "pressure_nominal_psi": 14.7,
+  "O2_amp": 0.3,
+  "CO2_amp": 0.1,
+  "P_amp": 0.3,
+  "O2_noise_std": 0.05,
+  "CO2_noise_std": 0.02,
+  "P_noise_std": 0.05,
+  "enable_drift": true,
+  "drift_std_O2": 0.01,
+  "drift_std_CO2": 0.003,
+  "drift_std_P": 0.01,
+  "freq_jitter_range": [
+    0.95,
+    1.05
+  ],
+  "co2_leak_magnitude_range": [
+    0.05,
+    0.4
+  ],
+  "valve_stiction_alpha_range": [
+    0.85,
+    0.99
+  ],
+  "vacuum_drop_range": [
+    0.5,
+    2.0
+  ],
+  "cdra_offset_range": [
+    0.05,
+    0.5
+  ],
+  "oga_offset_range": [
+    0.5,
+    4.0
+  ],
+  "enable_sensor_faults": true,
+  "p_sensor_fault": 0.15,
+  "bias_drift_max": 0.5,
+  "high_noise_factor": 4.0,
+  "freeze_min_fraction": 0.2,
+  "freeze_max_fraction": 0.6,
+  "n_spikes_min": 5,
+  "n_spikes_max": 30,
+  "spike_magnitude_range": [
+    0.5,
+    3.0
+  ],
+  "O2_min": 0.0,
+  "O2_max": 100.0,
+  "CO2_min": 0.0,
+  "CO2_max": 5.0,
+  "P_min": 0.0,
+  "P_max": 20.0,
+  "CO2_warn": 0.7,
+  "CO2_crit": 1.0,
+  "O2_warn_low": 19.0,
+  "O2_crit_low": 16.0,
+  "P_warn_low": 14.0,
+  "P_warn_high": 15.4,
+  "P_crit_low": 13.5,
+  "P_crit_high": 15.8,
+  "random_seed": 42
+}
