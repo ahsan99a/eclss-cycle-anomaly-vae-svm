@@ -3,13 +3,14 @@ Cycle-aware machine learning model (VAE + SVM) for anomaly detection and fault c
 **Synthetic Sensor Dataset • Anomaly Detection • Fault Classification**
 ## 🔭 Overview
 
-This repository contains an end-to-end machine learning pipeline for **fault detection and diagnosis** in NASA-inspired **Environmental Control and Life Support System (ECLSS)** data.  
+This repository contains a machine learning pipeline for **fault detection and diagnosis** in **Environmental Control and Life Support System (ECLSS)** synthetic data inspired by **Ibrahim et al., 2025.** 
+
 It includes:
 
 - A fully simulated **multi-sensor dataset** (O₂, CO₂, Pressure)
 - A **β-Variational Autoencoder (VAE)** for anomaly detection  
 - An **SVM classifier** trained on latent features for fault identification  
-- Complete **EDA**, validation routines, and publication-quality plots
+- Complete **EDA**, validation routines, and plots
 
 The project demonstrates how deep learning can support **reliability & health monitoring** for deep-space habitat systems.
 
