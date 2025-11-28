@@ -1,5 +1,5 @@
 {
-  "n_samples_per_system_class": 30,
+  "n_samples_per_system_class": 120,
   "n_timesteps": 1000,
   "sampling_rate_hz": 2.0,
   "O2_nominal": 20.9,

@@ -2,7 +2,7 @@
 
 ## Dataset Statistics
 
-- Total Samples: 180
+- Total Samples: 720
 - Timesteps per Sample: 1000
 - Sensors: 3 (O₂, CO₂, Pressure)
 - Sampling Rate: 2.0 Hz
@@ -12,28 +12,28 @@
 
 | Class ID | Class Name | Count | Percentage |
 |----------|------------|-------|------------|
-| 0 | Nominal | 30 | 16.7% |
-| 1 | CO2_Leak | 30 | 16.7% |
-| 2 | Valve_Stiction | 30 | 16.7% |
-| 3 | Vacuum_Anomaly | 30 | 16.7% |
-| 4 | CDRA_Degradation | 30 | 16.7% |
-| 5 | OGA_Degradation | 30 | 16.7% |
+| 0 | Nominal | 120 | 16.7% |
+| 1 | CO2_Leak | 120 | 16.7% |
+| 2 | Valve_Stiction | 120 | 16.7% |
+| 3 | Vacuum_Anomaly | 120 | 16.7% |
+| 4 | CDRA_Degradation | 120 | 16.7% |
+| 5 | OGA_Degradation | 120 | 16.7% |
 
 ## Sensor Fault Distribution
 
 | Fault ID | Fault Name | Count | Percentage |
 |----------|------------|-------|------------|
-| 0 | None | 153 | 85.0% |
-| 1 | Bias_Drift | 5 | 2.8% |
-| 2 | High_Noise | 4 | 2.2% |
-| 3 | Partial_Freeze | 8 | 4.4% |
-| 4 | Spike_Outliers | 10 | 5.6% |
+| 0 | None | 617 | 85.7% |
+| 1 | Bias_Drift | 23 | 3.2% |
+| 2 | High_Noise | 30 | 4.2% |
+| 3 | Partial_Freeze | 20 | 2.8% |
+| 4 | Spike_Outliers | 30 | 4.2% |
 
 ## Safety Flags Triggered
 
-- flag_CO2_warn: 28 samples (15.6%)
-- flag_CO2_crit: 5 samples (2.8%)
-- flag_O2_warn_low: 18 samples (10.0%)
+- flag_CO2_warn: 97 samples (13.5%)
+- flag_CO2_crit: 16 samples (2.2%)
+- flag_O2_warn_low: 75 samples (10.4%)
 - flag_O2_crit_low: 0 samples (0.0%)
 - flag_P_warn: 0 samples (0.0%)
 - flag_P_crit: 0 samples (0.0%)
@@ -43,14 +43,14 @@
 
 | Sensor | Min | Max | Mean | Std |
 |--------|-----|-----|------|-----|
-| O₂ (%) | 16.578 | 23.858 | 20.534 | 0.953 |
-| CO₂ (%) | 0.000 | 3.305 | 0.356 | 0.145 |
-| Pressure (psi) | 11.883 | 17.997 | 14.690 | 0.254 |
+| O₂ (%) | 16.062 | 23.964 | 20.528 | 0.963 |
+| CO₂ (%) | 0.000 | 3.818 | 0.354 | 0.148 |
+| Pressure (psi) | 11.764 | 18.052 | 14.689 | 0.255 |
 
 ## Configuration (JSON)
 
 {
-  "n_samples_per_system_class": 30,
+  "n_samples_per_system_class": 120,
   "n_timesteps": 1000,
   "sampling_rate_hz": 2.0,
   "O2_nominal": 20.9,
@@ -121,4 +121,4 @@
 
 ---
 
-*Generated on 2025-11-24 19:27:49*
+*Generated on 2025-11-28 11:22:49*
