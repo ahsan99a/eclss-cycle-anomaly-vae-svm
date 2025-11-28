@@ -83,9 +83,8 @@ Outputs:
 **VAE Performance**
 | Metric | Value |
 |--------|--------|
-| Train accuracy | **99.4%** |
-| Test accuracy | **95.3%** |
-| AUC | **≈ 0.80–0.82** |
+| Train accuracy | **98.81%** |
+| AUC | **≈ 0.8491** |
 
 ---
 
@@ -98,8 +97,8 @@ Outputs:
 **SVM Performance**
 | Metric | Value |
 |--------|--------|
-| Train accuracy | **99.4%** |
-| Test accuracy | **95.3%** |
+| Train accuracy | **99.5%** |
+| Test accuracy | **95.6%** |
 | Classes | 5 fault modes |
 
 ---
