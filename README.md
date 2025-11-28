@@ -1,9 +1,6 @@
 # eclss-cycle-anomaly-vae-svm
 Cycle-aware machine learning model (VAE + SVM) for anomaly detection and fault classification in synthetic ECLSS CO₂-removal cycles.  
 **Synthetic Sensor Dataset • Anomaly Detection • Fault Classification**
-
----
-
 ## 🔭 Overview
 
 This repository contains an end-to-end machine learning pipeline for **fault detection and diagnosis** in NASA-inspired **Environmental Control and Life Support System (ECLSS)** data.  
@@ -15,30 +12,6 @@ It includes:
 - Complete **EDA**, validation routines, and publication-quality plots
 
 The project demonstrates how deep learning can support **reliability & health monitoring** for deep-space habitat systems.
-
----
-
-## 📁 Project Structure
-
-├── data/
-│ ├── eclss_synthetic_dataset_full/ # Generated dataset + metadata
-│ └── eclss_preprocessed/ # Scaled + split data for ML
-│
-├── docs/ # Proposal, report, figures
-├── eclss_EDA/ # Exploratory Data Analysis plots
-├── figures/ # Final figures used in documentation
-│
-├── src/
-│ ├── data_generation/ # Dataset generator
-│ ├── preprocessing/ # Scaling + splitting
-│ ├── vae/ # VAE architecture + training
-│ ├── svm/ # SVM fault classifier
-│ └── utils/ # Shared utilities
-│
-└── README.md
-
-
----
 
 ## 🚀 Key Features
 
@@ -64,8 +37,6 @@ Plus **sensor fault models**:
 
 All samples tagged with **safety flags** + metadata.
 
----
-
 ### ✔ β-Variational Autoencoder (VAE)
 
 Architecture:
@@ -86,8 +57,6 @@ Outputs:
 | Train accuracy | **98.81%** |
 | AUC | **≈ 0.8491** |
 
----
-
 ### ✔ SVM Fault-Type Classifier (Using VAE Latent Space)
 
 - Kernel: **RBF**
@@ -101,6 +70,5 @@ Outputs:
 | Test accuracy | **95.6%** |
 | Classes | 5 fault modes |
 
----
 
 
