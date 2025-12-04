@@ -5,7 +5,8 @@ A physics-informed dataset for anomaly detection in spacecraft Environmental Con
 This repository provides a fully reproducible pipeline for generating, validating, and analyzing a synthetic ECLSS dataset.
 It was created for research on fault detection, VAE/SVM anomaly detection, and health monitoring of spacecraft life-support systems.
 
-🚀 What’s Included
+Included:
+
 1. Dataset Generator (src/generate_dataset.py)
 
 Produces clean, labeled time-series cycles for:
@@ -60,4 +61,4 @@ metadata.csv
 
 Visualization plots
 
-Summary markdown report
+
