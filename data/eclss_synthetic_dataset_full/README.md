@@ -1,4 +1,4 @@
-🌙 ECLSS Synthetic Dataset Generator
+**ECLSS Synthetic Dataset Generator**
 
 A physics-informed dataset for anomaly detection in spacecraft Environmental Control & Life Support Systems (ECLSS)
 
