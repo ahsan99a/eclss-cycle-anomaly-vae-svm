@@ -507,10 +507,10 @@ def main():
     print(f"✅ Saved test latent μ vectors to: "
           f"{(PRE_DIR / 'vae_test_latent_mu.npy').resolve()}")
 
-    print("\nDone. You can now:")
-    print("  • Use 'vae_test_recon_errors.npy' to tune thresholds / plot ROC.")
+    print("\nDone.")
+    print("  • Use 'vae_test_recon_errors.npy' to tune thresholds/plot ROC.")
     print("  • Use 'vae_test_latent_mu.npy' as features for SVM fault classifier.")
-    print("  • Optionally visualize latent space with t-SNE or PCA.\n")
+    print("  • Visualize latent space with t-SNE or PCA.\n")
 
 
 if __name__ == "__main__":
